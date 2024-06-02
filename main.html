@@ -4,7 +4,7 @@
 		<title>
 			Mega Calculator
 		</title>
-        <link rel="stylesheet" href="calc.css">
+        <link rel="stylesheet" href="main.css">
 	</head>
     <body>
 		<h1 id = "topHeading">
@@ -15,53 +15,25 @@
 			<!--primary buttons-->
 			<div id = "primaryButtons">
 				<!--geometry button-->
-				<button id = "geometryButton" type = "button">
-					Geometry
-				</button>
+				<form action="geometry/geometry.html">
+					<button type="submit">
+						Geometry
+					</button>
+				</form>			  
 				<!--algebra button-->
-				<button id = "algebraButton" type = "button">
-					Algebra
-				</button>
+				<form action="algebra/algebra.html">
+					<button type="submit">
+						Algebra
+					</button>
+				</form>
 				<!--pythagorean button-->
-				<button id = "pythagoreanButton" type = "button">
-					Pythagorean Theorem
-				</button>
+				<form action="pythagorean/pythagorean.html">
+					<button type="submit">
+						Pythagorean Formula
+					</button>
+				</form>
 			</div>
-			<!--secondary buttons-->
-			<div id = "secondaryButtons">
-				<!--geometry stuff-->
-				<div id = "geometryStuff">
-
-				</div>
-				<!--pythagorean stuff-->
-				<div id = "pythagoreanStuff">>
-					<label for="pythagSLA">Side Length A:</label>
-					<input type="text" id="pythagSLA" required minlength="4" maxlength="8" size="10">
-					<br>
-
-					<label for="pythagSLB">Side Length B:</label>
-					<input type="text" id="pythagSLB" required minlength="4" maxlength="8" size="10">
-					<br>
-
-					<label for="pythagSLC">Side Length C:</label>
-					<input type="text" id="pythagSLC" required minlength="4" maxlength="8" size="10">
-					<br>
-
-					<input id = "pythagSubmitButton" type = "submit">
-
-					<p id = "pythagoreanTheoremAnswer"></p>
-				</div>
-				<!--algebra stuff-->
-				<div id = "algebraStuff">
-
-				</div>
-			</div>
-			<!--home button-->
-			<br><br>
-			<button id = "homeButton" type = "button">
-				Go Home :)
-			</button>
 		</div>
-		<script type="text/javascript" src="calc.js"></script>
+		<script type="text/javascript" src="main.js"></script>
 	</body>
 </html>
