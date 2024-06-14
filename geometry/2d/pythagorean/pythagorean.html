@@ -14,17 +14,23 @@
 		<div id = "scrollingThroughButtons" class = "scroll">
 			<!--pythagorean stuff-->
 			<div id = "pythagoreanStuff">
-				<label for="pythagSLA">Side Length A:</label>
-				<input type="text" id="pythagSLA" required minlength="4" maxlength="8" size="10">
-				<br>
+				<form id = "pythagoreanForm">
+					<label for="pythagSLA">Side Length A:</label>
+					<input type="text" id="pythagSLA" size="10">
+					<br>
 
-				<label for="pythagSLB">Side Length B:</label>
-				<input type="text" id="pythagSLB" required minlength="4" maxlength="8" size="10">
-				<br>
+					<label for="pythagSLB">Side Length B:</label>
+					<input type="text" id="pythagSLB" size="10">
+					<br>
 
-				<input id = "pythagSubmitButton" type = "submit">
+					<label for="pythagSLC">Side Length C:</label>
+					<input type="text" id="pythagSLC" size="10">
+					<br>
 
-				<p id = "pythagoreanTheoremAnswer"></p>
+					<input id = "pythagSubmitButton" type = "submit">
+
+					<p id = "pythagoreanTheoremAnswer"></p>
+				</form>
 			</div>
 			<!--home button-->
 			<br><br>
